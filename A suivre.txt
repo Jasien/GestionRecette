@@ -1,0 +1,6 @@
+Ajout de l'upload des images pour les recettes
+Modifier le formulaire de recherche
+Modifier la sélection des ingrédients pour mettre une checkboxlist
+Ajout d'un système de grammage/nombre de personnes 
+Vérification des éléments du formulaire d'ajout de recettes
+Vérification du lien pour la vidéo youtube : https://rollingbox.com/blog/tutoriaux/verifier-lexistence-dune-video-youtube-jquery

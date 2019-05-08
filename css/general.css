@@ -1,0 +1,237 @@
+/* Mise en page */
+* {
+	box-sizing: border-box;
+}
+html, body {
+	margin: 0;
+	height: 100%;
+	font-family: sans-serif;
+	font-size: 1.1em;
+	text-align: center;
+}
+body{
+	background-image: url("../img/fond_page.jpg");
+}
+
+.holy-grail header,
+.holy-grail footer,
+.hg-sidebar,
+.holy-grail-content {
+	position: relative;
+    width: 100%;
+}
+
+.holy-grail header,
+.holy-grail footer {
+	background: #FFF;
+}
+
+.holy-grail{
+}
+
+.main-header{
+}
+
+.holy-grail-body{
+	height:auto;
+	top:0px;
+	left:0px;
+	width: 85%; 
+	height:81%;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	text-align:center;
+	overflow:auto;
+}
+
+.holy-grail footer{
+	position:absolute; 
+	bottom:0px; 
+	height:5%; 
+	left:0px; 
+	right:0px; 
+	margin-bottom:0px;
+	background-color:#f68bac;
+}
+
+/* Mise en page du menu supérieur */
+img {
+	max-width: 100%;
+	height: auto;
+}
+.container {
+	width: 960px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.main-header .container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.main-nav ul {
+	margin: 1em 0 .5em;
+	text-align: center;
+}
+.main-nav li {
+	display: inline;
+}
+.main-nav a {
+	display: inline-block;
+	padding: .5em 1.5em;
+}
+.mh-logo {
+	margin: 0 0 -5px;
+}
+
+/* vignettes */
+
+.ticket{
+	min-height: 250px;
+	width: 30%;
+    margin: 15px 20px auto;
+	vertical-align:middle;
+	display:inline-block;
+	box-shadow: 10px 10px 20px black;
+	float:left;
+	border:1px solid #000;
+	position: relative;
+	background-color: #FFF;
+}
+.ticket:hover{
+	min-height: 250px;
+	width: 30%;
+    margin: 15px 20px auto;
+	vertical-align:middle;
+	display:inline-block;
+	box-shadow: 10px 10px 10px 10px white;
+	float:left;
+	border:1px solid #000;
+	position: relative;
+	background-color: #FFF;
+}
+#title{
+	background: #DDDCDC;
+	padding: 15px;
+	width: 100%;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.ticket .body_vignette{
+}
+
+.ticket #image_vignette{
+	width: 30%;
+    height: 100%;
+    float: left;
+}
+.ticket #recette_vignette{
+	width: 60%;
+    height: 100%;
+    float: left;
+    text-align: justify;
+	font-size:14px;;
+}
+
+/* formulaire ajout recipe */
+input#chp_recipe{
+	font-size:14px;
+	font-style:italic;
+	background-color:#ECECEC;
+}
+input.btn_validation{
+	font-size:18px;
+}
+input{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding:3px;
+	border:1px solid #929292;
+	border-radius:5px;
+	width:200px;
+	box-shadow:1px 1px 2px #C0C0C0 inset;
+	font-size:16px;
+	height: 30px;
+}
+input#chp_description_recette, input#chp_video_recette{
+	width:40%;
+}
+
+.ajt_recipe, .rech_recipe{
+	height: 100%;
+	width: 100%;
+	vertical-align:middle;
+	display:inline-block;
+	float:left;
+	border:1px solid #000;
+	position: relative;
+	background-color: #FFF;
+	text-align:left;
+	padding:20px;
+}
+
+.error {
+	font-size:14px;
+	color:red;
+	font-style:italic;
+}
+label{
+	display: block;
+}
+.alerte{
+	display: block;
+    background-color: #FFF;
+    padding: 20px;
+	border:1px solid black;
+}
+
+/* Formatage pour le formulaire de contact */
+#frmContact label {
+  width: 400px;
+  display: block;
+}
+
+#frmContact input, #frmContact textarea {
+  width: 400px;
+  margin: 5px 0;
+  border: 1px solid #CCC;
+}
+
+#frmContact input#btnEnvoi {
+  width: 100px;
+}
+
+#frmContact p {
+  width: 400px;
+}
+
+#image_recette {
+	width: 30%;
+	height: auto;
+	float: left;
+}
+#ingredient_recette{
+    background-color: #FFF;
+}
+#ingredient_recette ul{
+	list-style: none;
+}
+#body_recette{
+	background-color:#FFF;
+}
+#titre_ingredient{
+	line-height: 40px;
+	background-color: #f68bac;
+}
+#titre_recette{
+	width:100%;
+	line-height: 40px;
+	background-color: #f68bac;
+	text-align:center;
+}
+#explication_recette{
+	text-align:justify;
+    display: inline-block;
+}
